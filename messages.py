@@ -1,4 +1,4 @@
-token = ""
+token = "5797094599:AAHTLShhcZ-Xn1OH0JBLdXYQcyah92G4W1g"
 
 hello_user = {'hello_ru': 'Здравствуйте,',
               'hello_en': 'Hello, '}
