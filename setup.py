@@ -37,7 +37,7 @@ def bot_message(message):
             markup.add(grodno)
             markup.add(lang)
             bot.send_message(message.chat.id, "Город:", reply_markup=markup)
-        elif message.text == messages.lang[f'lang_{user_language}']:
+        if message.text == messages.lang[f'lang_{user_language}']:
             start(message)
         if message.text == messages.city[f'city_{user_language}']:
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
